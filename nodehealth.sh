@@ -2,7 +2,6 @@
 ###########################
 # Author: Rajesh Gattu
 # Date: 09/01/2025
-
 # This script outputs the node health
 # Vesrion: 0.0.1
 ########################
