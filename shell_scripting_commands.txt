@@ -1,0 +1,6 @@
+man <command>: Details about the command
+touch <filename>: to create file
+ls: list the files/ folders
+ls -ltr: list the files with time stamp
+vi or vim <filename>: creates and opens the file
+
