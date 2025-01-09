@@ -6,7 +6,9 @@
 # Vesrion: 0.0.1
 ########################
 
-set -x #debug mode
+set -x # debug mode
+set -e # exist the script when there is an error
+set -o pipefail
 
 # Disk space
 echo " Print the disk space"
@@ -18,6 +20,9 @@ free -g
 # CPU
 echo" Print the CPU"
 nproc
+
+# Processers details
+ps -ef | grep amazon | awk -F" " {print $2}
 
 
 
