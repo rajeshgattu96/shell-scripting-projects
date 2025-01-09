@@ -13,17 +13,20 @@ set -x
 # AWS Lambda
 # AWS IAM Users
 
+# Create a fresh output file
+> resourceTracker
+
 # list s3 buckets
 echo "Print list of s3 buckets"
-aws s3 ls
+aws s3 ls >> resourceTracker
  # list EC2 Instances
  echo "Print list of ec2 instances"
- aws ec2 describe-instances | jq '.Resourecs[].Instances[].InstanceId'
+ aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId' >> resourceTracker
 
  # list lambda
  echo "Print list lambda functions"
- aws lambda list-functions
+ aws lambda list-functions >> resourceTracker
 
  # list IAM users
  echo "Print list IAM users"
- aws iam list-users
+ aws iam list-users >> resourceTracker
