@@ -21,6 +21,6 @@ mkdir: creates folder
 nproc: returns the number of available CPU cores for the current environment
 free: displays memory usage
 top: resource usage, such as CPU, memory, and running processes
-
+ps -ef: Processers details
 
 
