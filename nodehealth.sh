@@ -7,7 +7,7 @@
 # Vesrion: 0.0.1
 ########################
 
-set -x
+set -x #debug mode
 
 # Disk space
 echo " Print the disk space"
