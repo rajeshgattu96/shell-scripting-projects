@@ -3,4 +3,15 @@ touch <filename>: to create file
 ls: list the files/ folders
 ls -ltr: list the files with time stamp
 vi or vim <filename>: creates and opens the file
-
+#!:shebang
+bash,dash,sh,ksh: Exceutables
+#!/bin/bash
+echo :  to print
+cat : look the content of the file
+sh <filename> or./<filename>: Excecute the file
+chmod : grants permissions to a file
+chmod 777 : grants all permisiions to everybody
+chmod 444 : grants read permisiions to everybody
+4 : read permision
+2: write permisiion
+1: excute permision
