@@ -22,5 +22,9 @@ nproc: returns the number of available CPU cores for the current environment
 free: displays memory usage
 top: resource usage, such as CPU, memory, and running processes
 ps -ef: Processers details
+grep: filter the wanted information from the output
+|(pipe): pipe is used to get the output from first command and send it to second command
+awk: pattern scanning and processing language
+
 
 
