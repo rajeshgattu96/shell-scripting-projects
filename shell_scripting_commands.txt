@@ -15,3 +15,12 @@ chmod 444 : grants read permisiions to everybody
 4 : read permision
 2: write permisiion
 1: excute permision
+pwd: current working directory
+cd: change directory
+mkdir: creates folder
+nproc: returns the number of available CPU cores for the current environment
+free: displays memory usage
+top: resource usage, such as CPU, memory, and running processes
+
+
+
